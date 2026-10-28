@@ -1,0 +1,33 @@
+﻿# Java / Maven
+target/
+**/target/
+*.jar
+*.war
+
+# Node / React
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test reports
+coverage/
